@@ -1,0 +1,197 @@
+body {
+  height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #0a001377 -10%,
+    #1c0437 -10% 10%,
+    #320763bd 10% 11%,
+    #3a136c 11% 13%,
+    #4d1d7a 13% 15%,
+    #1e0731 15% 16%,
+    #0b0114e1 16% 17%,
+    #280253 17% 18%,
+    #5306aa 18% 19%,
+    #3a136c 19% 21%,
+    #200836 21% 23%,
+    #140222 23% 25%,
+    #b489da 25% 26%,
+    #1c0437 26% 28%,
+    #320763bd 28% 30%,
+    #3a136c 30% 32%,
+    #4d1d7a 32% 34%,
+    #6408af 34% 36%,
+    #0b0114e1 36% 38%,
+    #280253 38% 40%,
+    #5306aa 40% 42%,
+    #33076b 42% 44%,
+    #4d1d7a 44% 46%,
+    #1e0731 46% 48%,
+    #0e446b 48% 50%,
+    #3f90c5 50% 52%,
+    #196991 52% 54%,
+    #063462 54% 56%,
+    #063462 56% 60%,
+    #0e446b 60% 62%,
+    #06476f 62% 61%,
+    #196991 61% 64%,
+    #063462 64% 66%,
+    #063462 66% 68%,
+    #0e446b 68% 70%,
+    #1f79cd 70% 72%,
+    #196991 72% 74%,
+    #063462 74% 76%,
+    #063462 76% 77%,
+    #0e446b 77% 80%,
+    #068bad 80% 82%,
+    #196991 82% 84%,
+    #063462 84% 86%,
+    #063462 86% 88%,
+    #0e446b 88%
+  );
+}
+.split {
+  margin-top: 55px;
+  margin-left: 215px;
+  border-style: solid;
+  border-left: 0cm;
+  border-radius: 20px;
+  border-right-width: thick;
+  border-bottom-width: medium;
+  width: 900px;
+  height: 600px;
+  padding-top: 150px;
+  background-repeat: no-repeat;
+}
+.left {
+  left: 0;
+  background-color: black;
+}
+.right {
+  right: 0;
+  background-color: white;
+  margin-top: -700px;
+  width: 650px;
+  height: 630px;
+  margin-left: 350px;
+  border-radius: 0;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+h1 {
+  padding-left: 30px;
+}
+
+h2 {
+  padding-left: 30px;
+}
+
+.myDiv {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  color: rgb(77, 19, 23);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.myDiv .card {
+  top: 50rem;
+  margin: auto;
+  background: white;
+  width: 60rem;
+  position: center;
+  align-self: center;
+  border-radius: 1.5rem;
+  box-shadow: 4px 3px 20px rgb(0, 7, 17);
+  display: flex;
+  flex-direction: row;
+}
+
+.myDiv .leftside {
+  background: black;
+  width: 25rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.Item {
+  object-fit: cover;
+  width: 20em;
+  height: 20em;
+  border-radius: 100%;
+}
+
+.rightsisde {
+  background-color: white;
+  width: 35rem;
+  border-bottom-right-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  padding: 1rem 2rem 3rem 3rem;
+}
+
+p {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+  padding-left: 30px;
+}
+
+.inputBox {
+  color: black;
+  width: 220px;
+  padding: 0.5rem;
+  border: none;
+  border-bottom: 1.5px solid rgb(183, 178, 178);
+  margin-bottom: 1rem;
+  border-radius: 0;
+  color: rgb(62, 57, 57);
+  font-size: 1.1rem;
+  font-weight: 400;
+  outline: none;
+  padding-left: 30px;
+}
+
+.expcvv {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem;
+}
+
+.cvv-text {
+  padding-left: 10px;
+}
+
+.expcvv-text {
+  padding: 0 1rem;
+  padding-left: 20px;
+  margin-left: -60px;
+}
+
+.button {
+  background: linear-gradient(135deg, rgb(71, 9, 97) 0%, rgb(4, 89, 102) 100%);
+  padding: 15px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  width: 80%;
+  letter-spacing: 0.11rem;
+  outline: none;
+  margin-left: 30px;
+}
+
+.button:hover {
+  transform: scale(1.05) translateY(-3px);
+  box-shadow: 3px 3px 6px rgba(16, 15, 15, 0.726);
+  transition: 0.5s;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>CheckOut</title>
+  </head>
+  <body>
+    <div class="myDiv">
+      <div class="card">
+        <div class="leftside">
+          <img src="shoe_photo.jpg" alt="image" class="Item" />
+        </div>
+        <div class="rightside">
+          <form action="">
+            <h1>CheckOut</h1>
+            <h2>Payment Information</h2>
+            <p>Cardholder Name</p>
+            <input type="text" class="inputBox" required />
+
+            <p>Card Number</p>
+            <input type="text" class="inputBox" required />
+
+            <p>Card Type</p>
+            <select name="select a card type" id="" class="inputBox">
+              <option value="">Select a card Type</option>
+              <option value="">Credit card</option>
+              <option value="">Debit card</option>
+            </select>
+
+            <div class="expcvv">
+              <p class="cvv-text">Expiry</p>
+              <input type="date" class="inputBox" required />
+
+              <p class="expcvv-text">CVV</p>
+              <input type="text" class="inputBox" required />
+            </div>
+            <button type="submit" class="button">CheckOut</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
